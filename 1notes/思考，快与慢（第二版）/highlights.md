@@ -2,7 +2,7 @@
 title: 思考，快与慢（第二版）
 author: '[美]丹尼尔·卡尼曼；赵佳颖 审校'
 book_id: book-750451
-status: analyzing
+status: drafted
 tags:
 - 心理学
 - 决策
