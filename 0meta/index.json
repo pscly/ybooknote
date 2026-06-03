@@ -48,6 +48,330 @@
       "last_error": null,
       "created_at": "2026-06-03T13:49:14Z",
       "updated_at": "2026-06-03T15:16:52Z"
+    },
+    {
+      "book_id": "book-377345",
+      "title": "你大概率会放弃你的新年计划",
+      "author": "Dan Koe",
+      "source": {
+        "path": "1books/你大概率会放弃你的新年计划/source.epub",
+        "format": "epub",
+        "sha256": "3773452abf817948749b2cbb80dc513315a616d022f90c2c6b242bd4c5001632"
+      },
+      "notes": {
+        "dir": "1notes/你大概率会放弃你的新年计划",
+        "summary": "summary.md",
+        "chapters_extracted": 9
+      },
+      "status": "synced",
+      "tags": [],
+      "prompt_version": null,
+      "kavita": {
+        "id": "8",
+        "downloaded": true
+      },
+      "siyuan_doc_id": "20260603234827-a4d4c1n",
+      "siyuan_asset": "assets/source-20260603234827-hq7hl50.epub",
+      "last_error": null,
+      "created_at": "2026-06-03T15:19:00Z",
+      "updated_at": "2026-06-03T15:48:30Z"
+    },
+    {
+      "book_id": "book-a2aab0",
+      "title": "如何更聪明地表达自己",
+      "author": "Dan Koe",
+      "source": {
+        "path": "1books/如何更聪明地表达自己/source.epub",
+        "format": "epub",
+        "sha256": "a2aab0bfb7b7dcc1d75b94094480323a084890e3cd18773c65e6e81af3045dae"
+      },
+      "notes": {
+        "dir": "1notes/如何更聪明地表达自己",
+        "summary": "summary.md",
+        "chapters_extracted": 7
+      },
+      "status": "synced",
+      "tags": [],
+      "prompt_version": null,
+      "kavita": {
+        "id": "10",
+        "downloaded": true
+      },
+      "siyuan_doc_id": "20260603234833-g29mpyg",
+      "siyuan_asset": "assets/source-20260603234833-p0ycjd4.epub",
+      "last_error": null,
+      "created_at": "2026-06-03T15:19:00Z",
+      "updated_at": "2026-06-03T15:48:37Z"
+    },
+    {
+      "book_id": "1000-bd5bce",
+      "title": "如何将一个想法变成1000个让人忍不住阅读的点子",
+      "author": "Dan Koe",
+      "source": {
+        "path": "1books/如何将一个想法变成1000个让人忍不住阅读的点子/source.epub",
+        "format": "epub",
+        "sha256": "bd5bce89a4330f83884b392ef40f0bcd36c6ad479c641cbe848695cbcd29ffed"
+      },
+      "notes": {
+        "dir": "1notes/如何将一个想法变成1000个让人忍不住阅读的点子",
+        "summary": "summary.md",
+        "chapters_extracted": 9
+      },
+      "status": "synced",
+      "tags": [],
+      "prompt_version": null,
+      "kavita": {
+        "id": "9",
+        "downloaded": true
+      },
+      "siyuan_doc_id": "20260603234840-jyfxw8g",
+      "siyuan_asset": "assets/source-20260603234840-osickw8.epub",
+      "last_error": null,
+      "created_at": "2026-06-03T15:19:00Z",
+      "updated_at": "2026-06-03T15:48:44Z"
+    },
+    {
+      "book_id": "20-20-897e11",
+      "title": "人生困惑20讲（解决心理问题，才能解开人生困惑，20位心理学大师的心灵处方）",
+      "author": "迟毓凯",
+      "source": {
+        "path": "1books/人生困惑20讲（解决心理问题，才能解开人生困惑，20位心理学大师的心灵处方）/source.epub",
+        "format": "epub",
+        "sha256": "897e114363a0847c3b36d5aa3ad8eb116fe1f7ec5f9dee28dc5e62ca6938936e"
+      },
+      "notes": {
+        "dir": "1notes/人生困惑20讲（解决心理问题，才能解开人生困惑，20位心理学大师的心灵处方）",
+        "summary": "summary.md",
+        "chapters_extracted": 90
+      },
+      "status": "pending",
+      "tags": [],
+      "prompt_version": null,
+      "kavita": {
+        "id": "1",
+        "downloaded": true
+      },
+      "siyuan_doc_id": null,
+      "siyuan_asset": null,
+      "last_error": null,
+      "created_at": "2026-06-03T15:19:00Z",
+      "updated_at": "2026-06-03T15:19:03Z"
+    },
+    {
+      "book_id": "book-1349ba",
+      "title": "太乙金华宗旨",
+      "author": "吕洞宾",
+      "source": {
+        "path": "1books/太乙金华宗旨/source.epub",
+        "format": "epub",
+        "sha256": "1349bac781b02f15fb4d70ea9b513581730642de1ab27ce0bf5c4d8dd249264a"
+      },
+      "notes": {
+        "dir": "1notes/太乙金华宗旨",
+        "summary": "summary.md",
+        "chapters_extracted": 28
+      },
+      "status": "synced",
+      "tags": [],
+      "prompt_version": null,
+      "kavita": {
+        "id": "5",
+        "downloaded": true
+      },
+      "siyuan_doc_id": "20260603234847-ywmh9rr",
+      "siyuan_asset": "assets/source-20260603234847-wanldfg.epub",
+      "last_error": null,
+      "created_at": "2026-06-03T15:19:00Z",
+      "updated_at": "2026-06-03T15:48:51Z"
+    },
+    {
+      "book_id": "book-fe12cb",
+      "title": "子平真诠原本",
+      "author": "shine@vip.qq.com",
+      "source": {
+        "path": "1books/子平真诠原本/source.epub",
+        "format": "epub",
+        "sha256": "fe12cb1226fbb2f27df4fa82afe2a6a9e7cb45a95c3668885911b6aba2dd1f1c"
+      },
+      "notes": {
+        "dir": "1notes/子平真诠原本",
+        "summary": "summary.md",
+        "chapters_extracted": 1
+      },
+      "status": "synced",
+      "tags": [],
+      "prompt_version": null,
+      "kavita": {
+        "id": "15",
+        "downloaded": true
+      },
+      "siyuan_doc_id": "20260603234854-6ucfml1",
+      "siyuan_asset": "assets/source-20260603234854-vhmiz28.epub",
+      "last_error": null,
+      "created_at": "2026-06-03T15:19:01Z",
+      "updated_at": "2026-06-03T15:48:58Z"
+    },
+    {
+      "book_id": "1-5-f30cb0",
+      "title": "我不是教你诈(1-5合集)",
+      "author": "刘墉",
+      "source": {
+        "path": "1books/我不是教你诈(1-5合集)/source.epub",
+        "format": "epub",
+        "sha256": "f30cb014c19ff8c65a289623c21bbbd54eb5ffd42160f50b915f6c34c8190dfd"
+      },
+      "notes": {
+        "dir": "1notes/我不是教你诈(1-5合集)",
+        "summary": "summary.md",
+        "chapters_extracted": 73
+      },
+      "status": "synced",
+      "tags": [],
+      "prompt_version": null,
+      "kavita": {
+        "id": "6",
+        "downloaded": true
+      },
+      "siyuan_doc_id": "20260603234901-iepd066",
+      "siyuan_asset": "assets/source-20260603234901-9g2cafm.epub",
+      "last_error": null,
+      "created_at": "2026-06-03T15:19:02Z",
+      "updated_at": "2026-06-03T15:49:04Z"
+    },
+    {
+      "book_id": "book-d12d67",
+      "title": "故宫珍藏善本:梅花易数",
+      "author": "邵康节",
+      "source": {
+        "path": "1books/故宫珍藏善本梅花易数/source.epub",
+        "format": "epub",
+        "sha256": "d12d678b9f55c1c36baee082905f1dea5e111672651a087f8241b0de7e15e031"
+      },
+      "notes": {
+        "dir": "1notes/故宫珍藏善本梅花易数",
+        "summary": "summary.md",
+        "chapters_extracted": 11
+      },
+      "status": "pending",
+      "tags": [],
+      "prompt_version": null,
+      "kavita": {
+        "id": "7",
+        "downloaded": true
+      },
+      "siyuan_doc_id": null,
+      "siyuan_asset": null,
+      "last_error": null,
+      "created_at": "2026-06-03T15:19:02Z",
+      "updated_at": "2026-06-03T15:19:03Z"
+    },
+    {
+      "book_id": "1-e6838e",
+      "title": "李明博自传经营未来(1)",
+      "author": "李明博 [李明博]",
+      "source": {
+        "path": "1books/李明博自传经营未来(1)/source.epub",
+        "format": "epub",
+        "sha256": "e6838e191652d6d83bc82cb16073699182583eee328e03377316f4c5cf6269b8"
+      },
+      "notes": {
+        "dir": "1notes/李明博自传经营未来(1)",
+        "summary": "summary.md",
+        "chapters_extracted": 3
+      },
+      "status": "synced",
+      "tags": [],
+      "prompt_version": null,
+      "kavita": {
+        "id": "4",
+        "downloaded": true
+      },
+      "siyuan_doc_id": "20260603234908-tac14dv",
+      "siyuan_asset": "assets/source-20260603234907-ewo6yev.epub",
+      "last_error": null,
+      "created_at": "2026-06-03T15:19:02Z",
+      "updated_at": "2026-06-03T15:49:11Z"
+    },
+    {
+      "book_id": "book-e4aa16",
+      "title": "沉思录",
+      "author": "马可·奥勒留",
+      "source": {
+        "path": "1books/沉思录/source.epub",
+        "format": "epub",
+        "sha256": "e4aa16188e47e1e277fc28df5e17b6145c7c6f4eb4e72dec2e0b8dcb2f0dd0c2"
+      },
+      "notes": {
+        "dir": "1notes/沉思录",
+        "summary": "summary.md",
+        "chapters_extracted": 27
+      },
+      "status": "synced",
+      "tags": [],
+      "prompt_version": null,
+      "kavita": {
+        "id": "14",
+        "downloaded": true
+      },
+      "siyuan_doc_id": "20260603234914-1q90bhg",
+      "siyuan_asset": "assets/source-20260603234914-4lw45eo.epub",
+      "last_error": null,
+      "created_at": "2026-06-03T15:19:03Z",
+      "updated_at": "2026-06-03T15:49:18Z"
+    },
+    {
+      "book_id": "book-23d7c9",
+      "title": "钟吕传道集",
+      "author": "Chinese Text Project",
+      "source": {
+        "path": "1books/钟吕传道集/source.epub",
+        "format": "epub",
+        "sha256": "23d7c94f199e67bbb68a2c84a86465840dcc180bd3140f9f44e5dfbd36aa4553"
+      },
+      "notes": {
+        "dir": "1notes/钟吕传道集",
+        "summary": "summary.md",
+        "chapters_extracted": 20
+      },
+      "status": "synced",
+      "tags": [],
+      "prompt_version": null,
+      "kavita": {
+        "id": "11",
+        "downloaded": true
+      },
+      "siyuan_doc_id": "20260603234921-i7dl84c",
+      "siyuan_asset": "assets/source-20260603234921-yy5n18r.epub",
+      "last_error": null,
+      "created_at": "2026-06-03T15:19:03Z",
+      "updated_at": "2026-06-03T15:49:25Z"
+    },
+    {
+      "book_id": "book-188cde",
+      "title": "难道一切都是我的错吗？:重构你的家庭亲密关系",
+      "author": "李松蔚",
+      "source": {
+        "path": "1books/难道一切都是我的错吗？重构你的家庭亲密关系/source.epub",
+        "format": "epub",
+        "sha256": "188cded10e9ea539d3e0b60df8c49154a474bce9aa9588c189614ba9755f43db"
+      },
+      "notes": {
+        "dir": "1notes/难道一切都是我的错吗？重构你的家庭亲密关系",
+        "summary": "summary.md",
+        "chapters_extracted": 39
+      },
+      "status": "synced",
+      "tags": [],
+      "prompt_version": null,
+      "kavita": {
+        "id": "2",
+        "downloaded": true
+      },
+      "siyuan_doc_id": "20260603234928-u82oz5w",
+      "siyuan_asset": "assets/source-20260603234928-ep2lz6x.epub",
+      "last_error": null,
+      "created_at": "2026-06-03T15:19:03Z",
+      "updated_at": "2026-06-03T15:49:32Z"
     }
   ]
 }
