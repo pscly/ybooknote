@@ -2,8 +2,17 @@
 title: 故宫珍藏善本:梅花易数
 author: 邵康节
 book_id: book-d12d67
-status: drafted
-tags: [易学, 术数, 占卜, 邵雍, 梅花易数, 体用生克, 先天后天, 象数, 宋代]
+status: synced
+tags:
+- 易学
+- 术数
+- 占卜
+- 邵雍
+- 梅花易数
+- 体用生克
+- 先天后天
+- 象数
+- 宋代
 created: '2026-06-03'
 prompt_version: map.v1+reduce.v1
 ---

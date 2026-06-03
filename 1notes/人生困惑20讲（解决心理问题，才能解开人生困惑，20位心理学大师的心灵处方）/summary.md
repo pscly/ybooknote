@@ -2,8 +2,15 @@
 title: 人生困惑20讲（解决心理问题，才能解开人生困惑，20位心理学大师的心灵处方）
 author: 迟毓凯
 book_id: 20-20-897e11
-status: drafted
-tags: [心理学, 人生困惑, 大师传记, 自我成长, 积极心理学, 人际关系, 科普]
+status: synced
+tags:
+- 心理学
+- 人生困惑
+- 大师传记
+- 自我成长
+- 积极心理学
+- 人际关系
+- 科普
 created: '2026-06-03'
 prompt_version: map.v1+reduce.v1
 ---
