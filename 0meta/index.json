@@ -39,15 +39,15 @@
         "summary": "summary.md",
         "chapters_extracted": 46
       },
-      "status": "drafted",
+      "status": "synced",
       "tags": [],
       "prompt_version": null,
       "kavita": null,
-      "siyuan_doc_id": null,
-      "siyuan_asset": null,
+      "siyuan_doc_id": "20260603224222-er1avm0",
+      "siyuan_asset": "assets/source-20260603224232-5i9g9rz.epub",
       "last_error": null,
       "created_at": "2026-06-03T13:49:14Z",
-      "updated_at": "2026-06-03T14:27:27Z"
+      "updated_at": "2026-06-03T14:42:56Z"
     }
   ]
 }

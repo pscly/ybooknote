@@ -20,19 +20,64 @@ from lib import config, frontmatter, index
 from lib.textutil import sanitize_dirname
 
 
-def _assemble_body(entry: dict) -> str:
+import re as _re
+
+_NAV_RE = _re.compile(r"<!-- NAV:START.*?<!-- NAV:END -->", _re.S)
+
+
+def _clean_body(path) -> str:
+    """读 md，去 frontmatter、去 NAV 导航块（SiYuan 里相对链接无效）。"""
+    _, body = frontmatter.read_file(path)
+    return _NAV_RE.sub("", body).strip()
+
+
+def _drop_first_h1(body: str) -> str:
+    lines = body.splitlines()
+    for i, ln in enumerate(lines):
+        if ln.startswith("# "):
+            return "\n".join(lines[:i] + lines[i + 1:]).strip()
+    return body
+
+
+def _demote(body: str, levels: int = 1) -> str:
+    out = []
+    for ln in body.splitlines():
+        m = _re.match(r"(#{1,6})(\s)", ln)
+        out.append("#" * levels + ln if m else ln)
+    return "\n".join(out)
+
+
+def _chapter_sort_key(p):
+    m = _re.match(r"(\d+)", p.name)
+    return (int(m.group(1)) if m else 9999, p.name)
+
+
+def _assemble_body(entry: dict, include_chapters: bool = True) -> str:
     notes_dir = config.ROOT / entry["notes"]["dir"]
     parts: list[str] = []
+
     summary = notes_dir / "summary.md"
     if summary.exists():
-        _, body = frontmatter.read_file(summary)
-        parts.append(body.strip())
+        body = _drop_first_h1(_clean_body(summary))
+        if body and not body.startswith("<!--"):
+            parts.append("# 全书总览\n\n" + body)
+
     hl = notes_dir / "highlights.md"
     if hl.exists():
-        _, hbody = frontmatter.read_file(hl)
-        hbody = hbody.strip()
-        if hbody and not hbody.startswith("<!--"):
-            parts.append("\n---\n\n## 摘录与金句\n\n" + hbody)
+        body = _drop_first_h1(_clean_body(hl))
+        if body and not body.startswith("<!--"):
+            parts.append("# 摘录与金句\n\n" + body)
+
+    if include_chapters:
+        ch_dir = notes_dir / "chapters"
+        ch_files = sorted((p for p in ch_dir.glob("*.md")), key=_chapter_sort_key) if ch_dir.exists() else []
+        if ch_files:
+            chap_parts = ["# 分章笔记"]
+            for p in ch_files:
+                # 章节 H1「# 第N章」→「## 第N章」，内部 ## → ###，统一收进“分章笔记”
+                chap_parts.append(_demote(_clean_body(p), 1))
+            parts.append("\n\n".join(chap_parts))
+
     return "\n\n".join(p for p in parts if p).strip() + "\n"
 
 
