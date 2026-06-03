@@ -2,7 +2,7 @@
 title: 与神对话（全五卷）
 author: 尼尔·唐纳德·沃尔什
 book_id: 5-260ea5
-status: drafted
+status: synced
 tags:
 - 灵性
 - 新时代
