@@ -13,6 +13,10 @@ created: '2026-06-03'
 prompt_version: highlights.v1
 ---
 
+<!-- NAV:START 自动生成，请勿手改 -->
+🧭 [📚 本书导航](README.md) · [📑 全书总览](summary.md)
+<!-- NAV:END -->
+
 # 思考，快与慢（第二版） · 摘录与金句
 
 > 按全书五部分分组，每章精选。摘录均来自 epub 原文，定位见每条末尾；逐章更细的摘录见 `chapters/`。

@@ -48,8 +48,10 @@ def main(argv: list[str]) -> int:
             rest = ["reviewed"] + rest[1:]
         return status.main(rest)
     if cmd == "readme":
+        import gen_book_index
         import gen_readme
-        return gen_readme.main(rest)
+        rc = gen_book_index.main(rest)   # 先生成各书导航页
+        return rc or gen_readme.main(rest)  # 再生成顶层索引（链向各书导航页）
     if cmd == "kavita":
         import kavita
         return kavita.main(["list", *rest])

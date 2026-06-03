@@ -47,7 +47,8 @@ def _book_row(entry: dict) -> tuple:
     status = meta.get("status") or entry["status"]
     tag_str = "、".join(tags) if tags else "—"
     ch = entry.get("notes", {}).get("chapters_extracted", "—")
-    rel = f"{entry['notes']['dir']}/summary.md"
+    # 指向每本书的导航页（README.md）；GitHub 浏览该目录即展示它
+    rel = f"{entry['notes']['dir']}/README.md"
     link = _md_link(title, rel)
     return (status, title, link, author, tag_str, ch)
 
