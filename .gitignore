@@ -1,0 +1,36 @@
+# ============================================================
+#  AI 读书笔记库 —— .gitignore
+#  原则：版权书(epub/pdf/...)与密钥不进 GitHub；只分享笔记与代码。
+# ============================================================
+
+# --- 书源（仅存在于 Kavita + SiYuan，本地为工作副本） ---
+1books/*.epub
+1books/*.pdf
+1books/*.mobi
+1books/*.azw3
+1books/**/*.epub
+1books/**/*.pdf
+1books/**/*.mobi
+1books/**/*.azw3
+1books/_inbox/*
+!1books/_inbox/.gitkeep
+
+# --- 抽章纯文本缓存（确定性可重建） ---
+**/.cache/
+
+# --- 密钥 ---
+.env
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# --- OMC / 编辑器 / OS ---
+.omc/
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store

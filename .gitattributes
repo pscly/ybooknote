@@ -1,0 +1,6 @@
+# 统一文本行尾为 LF（跨平台/手机浏览一致），二进制书源标记为 binary。
+* text=auto eol=lf
+*.epub binary
+*.pdf binary
+*.mobi binary
+*.azw3 binary

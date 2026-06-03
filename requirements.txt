@@ -1,0 +1,6 @@
+# AI 读书笔记库 —— Python 依赖（Python 3.12）
+ebooklib>=0.18      # epub 解析
+beautifulsoup4>=4.12 # epub 内 HTML -> 纯文本
+lxml>=5.0           # bs4 解析后端（ebooklib 亦依赖）
+PyYAML>=6.0         # frontmatter 读写
+requests>=2.31      # Kavita OPDS / 可选 SiYuan 内核 API
