@@ -14,6 +14,7 @@
   kavita                 列出 Kavita 整库并标注是否已分析
   pull <kavita-id...>    从 Kavita 下载并自动 ingest
   sync <book>            幂等同步到 SiYuan（决策+记账；正文与附件经 MCP 写入）
+  rename <book> "<新名>"  重命名书名与目录（book_id 不变）
 """
 from __future__ import annotations
 
@@ -61,6 +62,9 @@ def main(argv: list[str]) -> int:
     if cmd == "sync":
         import sync_siyuan
         return sync_siyuan.main(rest)
+    if cmd == "rename":
+        import rename
+        return rename.main(rest)
 
     print(f"未知命令: {cmd}\n")
     print(USAGE)

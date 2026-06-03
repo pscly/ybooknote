@@ -3,15 +3,15 @@
   "books": [
     {
       "book_id": "5-260ea5",
-      "title": "与神对话(全五卷)(“与神系列”终极完整版。完整收录《与神对话·全三卷》及《与神为友》《与神合一》)(套装共5册)",
+      "title": "与神对话（全五卷）",
       "author": "尼尔·唐纳德·沃尔什",
       "source": {
-        "path": "1books/与神对话(全五卷)(“与神系列”终极完整版。完整收录《与神对话·全三卷》及《与神为友》《与神合一》)(套装共5册)/source.epub",
+        "path": "1books/与神对话（全五卷）/source.epub",
         "format": "epub",
         "sha256": "260ea58fb62f2297f5d21a82aefd194e3ae1f04993c75255a5a3da7f86b09445"
       },
       "notes": {
-        "dir": "1notes/与神对话(全五卷)(“与神系列”终极完整版。完整收录《与神对话·全三卷》及《与神为友》《与神合一》)(套装共5册)",
+        "dir": "1notes/与神对话（全五卷）",
         "summary": "summary.md",
         "chapters_extracted": 136
       },
@@ -23,7 +23,7 @@
       "siyuan_asset": null,
       "last_error": null,
       "created_at": "2026-06-03T13:49:13Z",
-      "updated_at": "2026-06-03T13:49:13Z"
+      "updated_at": "2026-06-03T14:44:38Z"
     },
     {
       "book_id": "book-750451",
