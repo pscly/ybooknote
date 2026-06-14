@@ -19,11 +19,12 @@
       "tags": [],
       "prompt_version": null,
       "kavita": null,
-      "siyuan_doc_id": "20260603231737-66aj4jb",
+      "siyuan_doc_id": "20260604135432-tkptlkb",
       "siyuan_asset": "assets/source-20260603231737-cbfx9ah.epub",
       "last_error": null,
       "created_at": "2026-06-03T13:49:13Z",
-      "updated_at": "2026-06-03T15:17:41Z"
+      "updated_at": "2026-06-04T05:54:43Z",
+      "siyuan_child_count": 5
     },
     {
       "book_id": "book-750451",
@@ -43,11 +44,12 @@
       "tags": [],
       "prompt_version": null,
       "kavita": null,
-      "siyuan_doc_id": "20260603231648-i8vubpg",
+      "siyuan_doc_id": "20260604135149-7jl9rrl",
       "siyuan_asset": "assets/source-20260603224232-5i9g9rz.epub",
       "last_error": null,
       "created_at": "2026-06-03T13:49:14Z",
-      "updated_at": "2026-06-03T15:16:52Z"
+      "updated_at": "2026-06-04T05:52:41Z",
+      "siyuan_child_count": 39
     },
     {
       "book_id": "book-377345",
@@ -70,11 +72,12 @@
         "id": "8",
         "downloaded": true
       },
-      "siyuan_doc_id": "20260603234827-a4d4c1n",
+      "siyuan_doc_id": "20260604135443-onjr5ep",
       "siyuan_asset": "assets/source-20260603234827-hq7hl50.epub",
       "last_error": null,
       "created_at": "2026-06-03T15:19:00Z",
-      "updated_at": "2026-06-03T15:48:30Z"
+      "updated_at": "2026-06-04T05:54:58Z",
+      "siyuan_child_count": 8
     },
     {
       "book_id": "book-a2aab0",
@@ -97,11 +100,12 @@
         "id": "10",
         "downloaded": true
       },
-      "siyuan_doc_id": "20260603234833-g29mpyg",
+      "siyuan_doc_id": "20260604135458-m8fnx20",
       "siyuan_asset": "assets/source-20260603234833-p0ycjd4.epub",
       "last_error": null,
       "created_at": "2026-06-03T15:19:00Z",
-      "updated_at": "2026-06-03T15:48:37Z"
+      "updated_at": "2026-06-04T05:55:10Z",
+      "siyuan_child_count": 6
     },
     {
       "book_id": "1000-bd5bce",
@@ -124,11 +128,12 @@
         "id": "9",
         "downloaded": true
       },
-      "siyuan_doc_id": "20260603234840-jyfxw8g",
+      "siyuan_doc_id": "20260604135510-zwphoxv",
       "siyuan_asset": "assets/source-20260603234840-osickw8.epub",
       "last_error": null,
       "created_at": "2026-06-03T15:19:00Z",
-      "updated_at": "2026-06-03T15:48:44Z"
+      "updated_at": "2026-06-04T05:55:26Z",
+      "siyuan_child_count": 8
     },
     {
       "book_id": "20-20-897e11",
@@ -151,11 +156,12 @@
         "id": "1",
         "downloaded": true
       },
-      "siyuan_doc_id": "20260604000046-x4luwsg",
+      "siyuan_doc_id": "20260604135526-80kfqyl",
       "siyuan_asset": "assets/source-20260604000046-9gvh573.epub",
       "last_error": null,
       "created_at": "2026-06-03T15:19:00Z",
-      "updated_at": "2026-06-03T16:00:50Z"
+      "updated_at": "2026-06-04T05:55:57Z",
+      "siyuan_child_count": 20
     },
     {
       "book_id": "book-1349ba",
@@ -178,11 +184,12 @@
         "id": "5",
         "downloaded": true
       },
-      "siyuan_doc_id": "20260603234847-ywmh9rr",
+      "siyuan_doc_id": "20260614200921-ff9uneu",
       "siyuan_asset": "assets/source-20260603234847-wanldfg.epub",
       "last_error": null,
       "created_at": "2026-06-03T15:19:00Z",
-      "updated_at": "2026-06-03T15:48:51Z"
+      "updated_at": "2026-06-14T12:10:17Z",
+      "siyuan_child_count": 14
     },
     {
       "book_id": "book-fe12cb",
@@ -205,11 +212,12 @@
         "id": "15",
         "downloaded": true
       },
-      "siyuan_doc_id": "20260603234854-6ucfml1",
+      "siyuan_doc_id": "20260604135620-lyveuty",
       "siyuan_asset": "assets/source-20260603234854-vhmiz28.epub",
       "last_error": null,
       "created_at": "2026-06-03T15:19:01Z",
-      "updated_at": "2026-06-03T15:48:58Z"
+      "updated_at": "2026-06-04T05:56:41Z",
+      "siyuan_child_count": 13
     },
     {
       "book_id": "1-5-f30cb0",
@@ -232,11 +240,12 @@
         "id": "6",
         "downloaded": true
       },
-      "siyuan_doc_id": "20260603234901-iepd066",
+      "siyuan_doc_id": "20260604135641-jocbzho",
       "siyuan_asset": "assets/source-20260603234901-9g2cafm.epub",
       "last_error": null,
       "created_at": "2026-06-03T15:19:02Z",
-      "updated_at": "2026-06-03T15:49:04Z"
+      "updated_at": "2026-06-04T05:57:04Z",
+      "siyuan_child_count": 15
     },
     {
       "book_id": "book-d12d67",
@@ -259,11 +268,12 @@
         "id": "7",
         "downloaded": true
       },
-      "siyuan_doc_id": "20260604000052-9vnu3nn",
+      "siyuan_doc_id": "20260604135705-31io0yo",
       "siyuan_asset": "assets/source-20260603235439-iu60v59.epub",
       "last_error": null,
       "created_at": "2026-06-03T15:19:02Z",
-      "updated_at": "2026-06-03T16:00:56Z"
+      "updated_at": "2026-06-04T05:57:21Z",
+      "siyuan_child_count": 9
     },
     {
       "book_id": "1-e6838e",
@@ -286,11 +296,12 @@
         "id": "4",
         "downloaded": true
       },
-      "siyuan_doc_id": "20260603234908-tac14dv",
+      "siyuan_doc_id": "20260604135722-0t8fa46",
       "siyuan_asset": "assets/source-20260603234907-ewo6yev.epub",
       "last_error": null,
       "created_at": "2026-06-03T15:19:02Z",
-      "updated_at": "2026-06-03T15:49:11Z"
+      "updated_at": "2026-06-04T05:57:29Z",
+      "siyuan_child_count": 2
     },
     {
       "book_id": "book-e4aa16",
@@ -313,11 +324,12 @@
         "id": "14",
         "downloaded": true
       },
-      "siyuan_doc_id": "20260603234914-1q90bhg",
+      "siyuan_doc_id": "20260614200925-uyrwnv8",
       "siyuan_asset": "assets/source-20260603234914-4lw45eo.epub",
       "last_error": null,
       "created_at": "2026-06-03T15:19:03Z",
-      "updated_at": "2026-06-03T15:49:18Z"
+      "updated_at": "2026-06-14T12:10:16Z",
+      "siyuan_child_count": 12
     },
     {
       "book_id": "book-23d7c9",
@@ -340,11 +352,12 @@
         "id": "11",
         "downloaded": true
       },
-      "siyuan_doc_id": "20260603234921-i7dl84c",
+      "siyuan_doc_id": "20260604135749-995n95d",
       "siyuan_asset": "assets/source-20260603234921-yy5n18r.epub",
       "last_error": null,
       "created_at": "2026-06-03T15:19:03Z",
-      "updated_at": "2026-06-03T15:49:25Z"
+      "updated_at": "2026-06-04T05:58:19Z",
+      "siyuan_child_count": 18
     },
     {
       "book_id": "book-188cde",
@@ -367,11 +380,13 @@
         "id": "2",
         "downloaded": true
       },
-      "siyuan_doc_id": "20260603234928-u82oz5w",
+      "siyuan_doc_id": "20260614200924-tz1lkrk",
       "siyuan_asset": "assets/source-20260603234928-ep2lz6x.epub",
       "last_error": null,
       "created_at": "2026-06-03T15:19:03Z",
-      "updated_at": "2026-06-03T15:49:32Z"
+      "updated_at": "2026-06-14T12:10:24Z",
+      "siyuan_child_count": 20
     }
-  ]
+  ],
+  "siyuan_shelf_id": "20260604140051-v7htq51"
 }
