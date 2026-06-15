@@ -14,6 +14,7 @@ tags:
 - 注意力经济
 created: '2026-06-03'
 prompt_version: map.v1+reduce.v1
+category: 个人成长
 ---
 
 <!-- NAV:START 自动生成，请勿手改 -->

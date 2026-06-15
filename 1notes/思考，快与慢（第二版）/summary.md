@@ -11,6 +11,7 @@ tags:
 - 双系统
 created: '2026-06-03'
 prompt_version: map.v1+reduce.v1
+category: 心理学·认知
 ---
 
 <!-- NAV:START 自动生成，请勿手改 -->

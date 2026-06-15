@@ -52,6 +52,28 @@ def set_icon(doc_id: str, icon: str) -> None:
     _post("/api/attr/setBlockAttrs", {"id": doc_id, "attrs": {"icon": icon}})
 
 
+def prepend_block(parent_id: str, markdown: str) -> str | None:
+    """在 parent_id（文档或块）内最前插入 markdown 块，返回新块 id。"""
+    res = _post("/api/block/prependBlock",
+                {"dataType": "markdown", "data": markdown, "parentID": parent_id})
+    return _first_block_id(res)
+
+
+def append_block(parent_id: str, markdown: str) -> str | None:
+    """在 parent_id（文档或块）内末尾追加 markdown 块，返回新块 id。"""
+    res = _post("/api/block/appendBlock",
+                {"dataType": "markdown", "data": markdown, "parentID": parent_id})
+    return _first_block_id(res)
+
+
+def _first_block_id(res):
+    """prepend/appendBlock 返回事务数组，取首个 doOperation 的块 id。"""
+    try:
+        return res[0]["doOperations"][0]["id"]
+    except (TypeError, IndexError, KeyError):
+        return None
+
+
 def upload_asset(file_path: str, assets_dir: str = "/assets/") -> str | None:
     p = Path(file_path)
     with open(p, "rb") as f:
@@ -78,3 +100,18 @@ def remove_doc_by_id(doc_id: str) -> bool:
 def doc_id_by_hpath(notebook: str, hpath: str):
     rows = sql(f"SELECT id FROM blocks WHERE box='{notebook}' AND hpath='{hpath}' AND type='d' LIMIT 1")
     return rows[0]["id"] if rows else None
+
+
+def paths_by_ids(ids: list[str]) -> dict:
+    """批量取文档 .sy 路径：返回 {id: path}。"""
+    if not ids:
+        return {}
+    in_list = ",".join(f"'{i}'" for i in ids)
+    rows = sql(f"SELECT id, path FROM blocks WHERE id IN ({in_list}) AND type='d'")
+    return {r["id"]: r["path"] for r in (rows or [])}
+
+
+def change_sort(notebook: str, paths: list[str]) -> None:
+    """按给定 .sy 路径顺序锁定同级文档排序（笔记本转自定义排序，仅影响所列文档相对次序）。"""
+    if paths:
+        _post("/api/filetree/changeSort", {"notebook": notebook, "paths": paths})

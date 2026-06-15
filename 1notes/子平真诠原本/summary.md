@@ -13,6 +13,7 @@ tags:
 - 文言
 created: '2026-06-03'
 prompt_version: map.v1+reduce.v1
+category: 丹道·术数
 ---
 
 <!-- NAV:START 自动生成，请勿手改 -->

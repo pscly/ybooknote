@@ -11,6 +11,7 @@ tags:
 - 对话体
 created: '2026-06-03'
 prompt_version: 卷级Map+Reduce.v1
+category: 灵性
 ---
 
 <!-- NAV:START 自动生成，请勿手改 -->

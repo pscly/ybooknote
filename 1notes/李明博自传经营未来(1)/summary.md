@@ -13,6 +13,7 @@ tags:
 - 城市管理
 created: '2026-06-03'
 prompt_version: map.v1+reduce.v1
+category: 处世·传记
 ---
 
 <!-- NAV:START 自动生成，请勿手改 -->
